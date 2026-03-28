@@ -7,13 +7,18 @@ description: >
   and implementation-coupled assertions. Includes mock decision trees,
   test granularity selection (unit/integration/e2e), and requirement-driven
   test writing workflows. Use when writing tests, generating test suites,
-  reviewing test code, or working with vitest, jest, pytest, playwright,
-  go test, mocha, or any testing framework.
+  reviewing test code, improving test quality, increasing code coverage,
+  or working with vitest, jest, pytest, playwright, go test, mocha, junit,
+  xunit, nunit, rspec, or any testing framework.
 ---
 
 # Anti-Test-Theater
 
-Never look at the implementation first, then write tests to match it.
+**3 rules. Memorize these.**
+
+1. Never write a test by looking at the implementation first — understand the *requirement*, then test *that*
+2. Never mock the thing you're testing — mock external services, use real code for everything else
+3. Write test names before test bodies — if you can't name it clearly, you don't know what you're testing
 
 ## Anti-Patterns — Do Not Produce These
 
@@ -198,3 +203,5 @@ Never: `test('works correctly')`, `test('should handle edge case')`, `test('test
 For detailed examples by language/framework, see:
 - [reference/frontend-testing.md](reference/frontend-testing.md) — React/Vue component testing patterns
 - [reference/api-testing.md](reference/api-testing.md) — Backend API and database testing patterns
+- [reference/java-testing.md](reference/java-testing.md) — JUnit 5, Mockito, Spring Boot patterns
+- [reference/csharp-testing.md](reference/csharp-testing.md) — xUnit, NSubstitute, ASP.NET patterns
