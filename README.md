@@ -6,6 +6,8 @@
 
 Stop your AI agent from writing useless tests.
 
+[English](./README.md) | [中文](./README.zh-CN.md)
+
 **Works with:** Claude Code · Cursor · Kiro · OpenAI Codex · Gemini CLI · GitHub Copilot · OpenCode · Aider
 
 ## Before / After
