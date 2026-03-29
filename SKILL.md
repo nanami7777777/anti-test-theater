@@ -203,5 +203,6 @@ Never: `test('works correctly')`, `test('should handle edge case')`, `test('test
 For detailed examples by language/framework, see:
 - [reference/frontend-testing.md](reference/frontend-testing.md) — React/Vue component testing patterns
 - [reference/api-testing.md](reference/api-testing.md) — Backend API and database testing patterns
+- [reference/go-testing.md](reference/go-testing.md) — Table-driven tests, httptest, concurrency, testcontainers
 - [reference/java-testing.md](reference/java-testing.md) — JUnit 5, Mockito, Spring Boot patterns
 - [reference/csharp-testing.md](reference/csharp-testing.md) — xUnit, NSubstitute, ASP.NET patterns

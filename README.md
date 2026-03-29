@@ -104,6 +104,7 @@ anti-test-theater/
 ├── reference/
 │   ├── frontend-testing.md           # React/Vue/Playwright
 │   ├── api-testing.md                # API/DB/concurrency/Go/Python
+│   ├── go-testing.md                 # Table-driven, httptest, concurrency
 │   ├── java-testing.md               # JUnit 5/Mockito/Spring Boot
 │   └── csharp-testing.md             # xUnit/NSubstitute/ASP.NET
 ├── scripts/

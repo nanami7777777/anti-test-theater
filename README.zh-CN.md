@@ -85,6 +85,7 @@ AI agent 写的测试看着很专业，但实际上什么 bug 都抓不到：
 ### 参考文件（按需加载）
 - `reference/frontend-testing.md` — React、Vue、Playwright 模式
 - `reference/api-testing.md` — API 接口、数据库、并发、Go、Python
+- `reference/go-testing.md` — 表驱动测试、httptest、并发测试、testcontainers
 - `reference/java-testing.md` — JUnit 5、Mockito、Spring Boot
 - `reference/csharp-testing.md` — xUnit、NSubstitute、ASP.NET
 
@@ -116,7 +117,8 @@ anti-test-theater/
 ├── SKILL.md                          # 核心规则（~200 行）
 ├── reference/
 │   ├── frontend-testing.md           # React/Vue/Playwright
-│   ├── api-testing.md                # API/数据库/并发/Go/Python
+│   ├── api-testing.md                # API/数据库/并发/Python
+│   ├── go-testing.md                 # 表驱动测试/httptest/并发
 │   ├── java-testing.md               # JUnit 5/Mockito/Spring Boot
 │   └── csharp-testing.md             # xUnit/NSubstitute/ASP.NET
 ├── scripts/
