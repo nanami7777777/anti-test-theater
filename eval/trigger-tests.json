@@ -1,0 +1,23 @@
+[
+  {"query": "Write tests for the UserService.create method", "should_trigger": true},
+  {"query": "Generate a test suite for the payment processing module", "should_trigger": true},
+  {"query": "I need unit tests for this React component", "should_trigger": true},
+  {"query": "Help me improve the test coverage for our API endpoints", "should_trigger": true},
+  {"query": "Review these tests and tell me if they're actually useful", "should_trigger": true},
+  {"query": "Write pytest tests for the data pipeline", "should_trigger": true},
+  {"query": "Add integration tests for the order checkout flow", "should_trigger": true},
+  {"query": "The CI tests keep passing but we still have bugs in production, what's wrong with our tests?", "should_trigger": true},
+  {"query": "Write Go table-driven tests for the validator package", "should_trigger": true},
+  {"query": "Our test suite has 95% coverage but we keep finding bugs. Help me figure out why.", "should_trigger": true},
+
+  {"query": "Refactor the UserService to use dependency injection", "should_trigger": false},
+  {"query": "Write a README for this project", "should_trigger": false},
+  {"query": "Create a REST API endpoint for user registration", "should_trigger": false},
+  {"query": "Help me set up ESLint and Prettier for the project", "should_trigger": false},
+  {"query": "Deploy this app to AWS using Terraform", "should_trigger": false},
+  {"query": "Optimize this SQL query, it's running slow", "should_trigger": false},
+  {"query": "Write a migration script to add a new column to the users table", "should_trigger": false},
+  {"query": "Help me debug this null pointer exception in production", "should_trigger": false},
+  {"query": "Create a Docker Compose file for local development", "should_trigger": false},
+  {"query": "Review this PR and suggest improvements to the code quality", "should_trigger": false}
+]
